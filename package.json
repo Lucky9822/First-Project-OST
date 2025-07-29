@@ -1,0 +1,27 @@
+{
+  "name": "wellness-session-platform",
+  "version": "1.0.0",
+  "description": "Secure Wellness Session Platform with Auth, Drafts, and Auto-Save",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd frontend && npm start",
+    "install-client": "cd frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "author": "Arvyax Intern",
+  "license": "MIT"
+}
